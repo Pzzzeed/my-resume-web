@@ -1,13 +1,12 @@
-import './portfolio.css'
+import '../component/portfolio.css'
 import { Link } from 'react-router-dom'
 
-function Portfolio () {
-
+function PortfolioPage() {
     return (
-        <div className='container-portfolio'>
-            <div className='portfolio-header'>
-                <h1>Portfolio</h1>
-                <button className='see-more'><Link to="/portfolio">See More &rarr;</Link></button>
+        <div>
+            <div className='port-header'>
+                <h1>My Portfolio</h1>
+                <button className='back'><Link to="/">Back to Homepage</Link></button>
             </div>
             <div className='portfolio-img-box'>
                 <div className='portfolio-img-item'>
@@ -41,8 +40,8 @@ function Portfolio () {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> 
     )
-}
+  }
   
-  export default Portfolio
+  export default PortfolioPage

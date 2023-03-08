@@ -38,3 +38,28 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.see-more {
+    background-color: transparent;
+}
+
+.see-more Link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.port-header {
+    background-color: #FF2950;
+    width: 100vw;
+    height: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 5%;
+  }
+
+  .back {
+    background-color: white;
+  }
+
