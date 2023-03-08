@@ -4,7 +4,7 @@ import './App.css'
 
 import Homepage from './Page/Homepage'
 import { BrowserRouter , Routes, Route} from "react-router-dom";
-import PortfolioPage from './Page/portfoliopage';
+import PortfolioPage from './Page/Portfoliopage';
 
 function App() {
 
