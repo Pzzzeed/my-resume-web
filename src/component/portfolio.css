@@ -1,0 +1,40 @@
+.portfolio-img-item {
+    width: 400px;
+    height: 300px;
+}
+
+.portfolio-img{
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.container-portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+/* .portfolio-img-box {
+    margin-left: 10%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 10px;
+} */
+
+.portfolio-img-box {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
